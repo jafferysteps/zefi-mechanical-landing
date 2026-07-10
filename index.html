@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zefi Mechanical Inc. | Licensed Master Plumber NYC</title>
+    <meta name="description" content="Zefi Mechanical Inc. is New York City's premier licensed master plumbing and mechanical contractor. Emergency services, backflow prevention, and drain cleaning. Call (212) 860-0451.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="customer-view">
+
+    <!-- Pitch Mode Toggle Bar -->
+    <div id="pitch-banner" class="pitch-banner">
+        <div class="pitch-container">
+            <span class="pitch-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Pitch Mode</span>
+            <p class="pitch-text">Previewing custom landing page for <strong>Zefi Mechanical Inc. (New York, NY)</strong>.</p>
+            <button id="toggle-pitch-btn" class="pitch-toggle-btn">
+                <i class="fa-solid fa-eye"></i> Switch to Customer View
+            </button>
+        </div>
+    </div>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-announcement-bar">
+        <div class="container top-bar-flex">
+            <span class="location-tag"><i class="fa-solid fa-location-dot"></i> 420 East 111th Street, New York, NY 10029</span>
+            <div class="header-phone">
+                <span>NYC Licensed Master Plumber:</span>
+                <a href="tel:2128600451" class="phone-link"><i class="fa-solid fa-phone-volume"></i> (212) 860-0451</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo-area">
+                <a href="#hero" style="display: block;">
+                    <img src="assets/logo.png" alt="Zefi Mechanical" class="header-logo-img">
+                </a>
+            </div>
+            
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <nav class="desktop-nav">
+                <!-- Dropdown 1: Mechanical Services -->
+                <div class="nav-dropdown">
+                    <a href="#services" class="dropdown-trigger">Plumbing & Heating <i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#services"><i class="fa-solid fa-droplet"></i> Master Plumbing</a>
+                        <a href="#services"><i class="fa-solid fa-temperature-arrow-up"></i> Heating Repairs</a>
+                        <a href="#services"><i class="fa-solid fa-shield-virus"></i> Backflow Prevention</a>
+                    </div>
+                </div>
+                
+                <!-- Dropdown 2: Commercial & Drains -->
+                <div class="nav-dropdown">
+                    <a href="#services" class="dropdown-trigger">Commercial & Sewer <i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#services"><i class="fa-solid fa-soap"></i> Sewer Line Cleaning</a>
+                        <a href="#services"><i class="fa-solid fa-network-wired"></i> Mechanical Piping</a>
+                    </div>
+                </div>
+
+                <a href="#guarantees">Guarantees</a>
+                <a href="#calculator">Instant Estimate</a>
+                <a href="#faq">FAQ</a>
+                <a href="#about">Why Us</a>
+            </nav>
+
+            <div class="header-cta">
+                <a href="#booking-form-anchor" class="btn btn-secondary">Schedule Online</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+            <div class="hero-info">
+                <span class="hero-pretitle">NYC Master Plumber License #1946</span>
+                <h1>Manhattan's Top Plumbing & Mechanical Team</h1>
+                <p class="hero-text-body">From high-rise mechanical piping systems and backflow prevention to rapid residential leak repair and emergency sewer snaking. Code-compliant, certified master plumbers at your service.</p>
+                
+                <div class="hero-checklists">
+                    <div class="chk-item"><i class="fa-solid fa-circle-check"></i> Licensed, Bonded & Insured in NYC</div>
+                    <div class="chk-item"><i class="fa-solid fa-circle-check"></i> Master Plumbing Certification & Compliance</div>
+                    <div class="chk-item"><i class="fa-solid fa-circle-check"></i> Clear, Upfront Structural Estimates</div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="tel:2128600451" class="btn btn-primary btn-lg"><i class="fa-solid fa-phone"></i> Call (212) 860-0451</a>
+                    <a href="#calculator" class="btn btn-outline btn-lg">Estimate Service Cost <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Hero Form Block -->
+            <div class="hero-form-wrapper" id="booking-form-anchor">
+                <h3>Request Service Priority</h3>
+                <p>Submit your service ticket online for immediate master plumbing dispatch priority.</p>
+                <form id="hero-schedule-form" action="https://formsubmit.co/cyed.jaffery@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://jafferysteps.github.io/zefi-mechanical-landing/">
+                    <input type="hidden" name="_subject" value="New Zefi Mechanical Lead (Hero Form)">
+                    <div class="form-group">
+                        <label for="form-name">Full Name *</label>
+                        <input type="text" id="form-name" name="Client Name" required class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="form-phone">Phone *</label>
+                            <input type="tel" id="form-phone" name="Client Phone" required class="form-control" placeholder="(212) 860-0451">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-zip">Zip Code *</label>
+                            <input type="text" id="form-zip" name="Client Zip Code" required class="form-control" placeholder="10029">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-service">Required Work *</label>
+                        <select id="form-service" name="Service Requested" required class="form-control">
+                            <option value="">-- Select Work Category --</option>
+                            <option value="plumbing">Master Plumbing Repairs</option>
+                            <option value="sewer">Sewer & Drain Cleaning</option>
+                            <option value="backflow">Backflow Prevention Testing</option>
+                            <option value="mechanical">Commercial Mechanical Piping</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-block">Book Priority Dispatch</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantees Section -->
+    <section class="guarantees-section" id="guarantees">
+        <div class="container">
+            <div class="section-title-wrapper text-center">
+                <span class="section-subtitle">Our Commitments</span>
+                <h2>Premium Protections & NYC Compliance</h2>
+                <p class="section-desc">We back all of our commercial and residential installations with master plumber warranty protections.</p>
+            </div>
+
+            <div class="guarantees-grid">
+                <!-- Card 1 -->
+                <div class="guarantee-card">
+                    <div class="guarantee-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Code Compliance</h3>
+                    <p>All plumbing modifications are executed matching strictly NYC building department codes, ensuring passed inspections.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="guarantee-card card-highlight">
+                    <div class="guarantee-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3>1-Year Warranty</h3>
+                    <p>All residential plumbing repairs, backflow testing upgrades, and piping overhauls are backed by our full 1-year master warranty.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="guarantee-card">
+                    <div class="guarantee-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h3>Upfront Pricing</h3>
+                    <p>We perform full inspections and issue detailed quotes before mechanical pipeline upgrades or repairs begin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-Step Service Process Section -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-title-wrapper text-center">
+                <span class="section-subtitle">How We Work</span>
+                <h2>Our 3-Step Service Process</h2>
+                <p class="section-desc">Getting mechanical repairs and master plumbing services in NYC is transparent and prompt.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-icon-circle"><i class="fa-solid fa-calendar-check"></i></div>
+                    <h3>1. Schedule Appointment</h3>
+                    <p>Submit your details online or speak directly with our NYC office dispatch team.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-icon-circle"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3>2. Professional Inspection</h3>
+                    <p>Our licensed master plumbers arrive with advanced testing tools to assess the structural issue.</p>
+                </div>
+                <div class="process-card">
+                    <div class="process-icon-circle"><i class="fa-solid fa-house-chimney-user"></i></div>
+                    <h3>3. Code-Certified Execution</h3>
+                    <p>We perform the mechanical repairs cleanly, ensuring code compliance and long-lasting durability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Grid -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-title-wrapper text-center">
+                <span class="section-subtitle">Core Expertise</span>
+                <h2>Professional Plumbing & Mechanical Services</h2>
+                <p class="section-desc">Authorized, NYC licensed plumbing team available for complex system diagnostics and installations.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon-circle"><i class="fa-solid fa-wrench"></i></div>
+                        <h3>Master Plumbing</h3>
+                    </div>
+                    <p>Complete pipe replacements, riser upgrades, pressure regulator valve fixes, and code-compliant plumbing overhauls.</p>
+                    <ul class="srv-points">
+                        <li><i class="fa-solid fa-check"></i> Riser Piping Repairs</li>
+                        <li><i class="fa-solid fa-check"></i> Leak Inspections</li>
+                        <li><i class="fa-solid fa-check"></i> Master Certifications</li>
+                    </ul>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon-circle"><i class="fa-solid fa-soap"></i></div>
+                        <h3>Sewer & Drain Cleaning</h3>
+                    </div>
+                    <p>High-powered main sewer line snaking, grease trap maintenance, and mechanical line clearing for commercial structures.</p>
+                    <ul class="srv-points">
+                        <li><i class="fa-solid fa-check"></i> Sewer Main Snaking</li>
+                        <li><i class="fa-solid fa-check"></i> High-Rise Drain Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Grease Trap Checks</li>
+                    </ul>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-card-header">
+                        <div class="service-icon-circle"><i class="fa-solid fa-shield-virus"></i></div>
+                        <h3>Backflow Prevention</h3>
+                    </div>
+                    <p>Official annual backflow device testing, repair, certification, and New York City DEP compliance filing.</p>
+                    <ul class="srv-points">
+                        <li><i class="fa-solid fa-check"></i> Compliance Testing</li>
+                        <li><i class="fa-solid fa-check"></i> Device Installs</li>
+                        <li><i class="fa-solid fa-check"></i> DEP File Submissions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estimate Section -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-title-wrapper text-center">
+                <span class="section-subtitle">Pricing Guide</span>
+                <h2>Get a Plumbing & Backflow Estimate</h2>
+                <p class="section-desc">Select the required diagnostics and services to calculate your baseline cost range.</p>
+            </div>
+
+            <div class="calculator-card">
+                <div class="calc-grid">
+                    <div class="calc-options">
+                        <h3>1. Select Services</h3>
+                        
+                        <div class="calc-block">
+                            <label class="calc-dropdown-label" for="calc-sewer"><i class="fa-solid fa-soap"></i> Sewer & Drain Services</label>
+                            <select id="calc-sewer" name="Sewer Estimate Selection" class="form-control calc-select-field">
+                                <option value="0" data-name="No Sewer Service Selected">-- Select Drain Service --</option>
+                                <option value="250" data-name="Main Sewer Line Snaking">Sewer Line Snaking ($250)</option>
+                                <option value="180" data-name="Kitchen Drain Snaking">Kitchen Drain Clearing ($180)</option>
+                            </select>
+                        </div>
+
+                        <div class="calc-block">
+                            <label class="calc-dropdown-label" for="calc-plumbing"><i class="fa-solid fa-shield-virus"></i> Testing & Plumbing Repairs</label>
+                            <select id="calc-plumbing" name="Plumbing Estimate Selection" class="form-control calc-select-field">
+                                <option value="0" data-name="No Plumbing Service Selected">-- Select Service --</option>
+                                <option value="350" data-name="Backflow DEP Testing">Backflow Prevention DEP Testing ($350)</option>
+                                <option value="150" data-name="Plumbing Leak Diagnostics">Plumbing Leak Diagnostics ($150)</option>
+                            </select>
+                        </div>
+
+                        <!-- Guide and Trust Seals -->
+                        <div class="calc-guide-box">
+                            <h4><i class="fa-solid fa-circle-info"></i> How it works:</h4>
+                            <ol class="calc-steps">
+                                <li>Select the required mechanical or plumbing categories above.</li>
+                                <li>Review the dynamically updated baseline total in the right panel.</li>
+                                <li>Fill out your contact details to submit your priority booking request.</li>
+                            </ol>
+                            <div class="calc-badges">
+                                <div class="badge-item"><i class="fa-solid fa-lock"></i> Fixed Diagnostic Fees</div>
+                                <div class="badge-item"><i class="fa-solid fa-bolt"></i> Licensed DEP Inspectors</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc-summary">
+                        <div class="summary-box">
+                            <h4>Estimated Baseline</h4>
+                            <div class="price-val">$<span id="calc-total">0</span></div>
+                            <p class="summary-disclaimer">*NYC permit charges, DEP filing fees, or custom plumbing replacement parts determined on-site.</p>
+                            
+                            <h5>Selected Items:</h5>
+                            <ul id="calc-selected-list" class="summary-list">
+                                <li class="empty-msg">No services selected</li>
+                            </ul>
+                            
+                            <hr class="calc-hr">
+                            
+                            <div class="calc-lead-form">
+                                <h5>Submit Estimate Request</h5>
+                                <form id="calc-booking-form" action="https://formsubmit.co/cyed.jaffery@gmail.com" method="POST">
+                                    <input type="hidden" name="_next" value="https://jafferysteps.github.io/zefi-mechanical-landing/">
+                                    <input type="hidden" name="_subject" value="New Zefi Mechanical Lead (Calculator Form)">
+                                    <input type="hidden" name="Selected Services" id="calc-selected-hidden" value="None">
+                                    <div class="form-group">
+                                        <input type="text" id="calc-name" name="Lead Name" placeholder="Your Name" required class="form-control calc-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" id="calc-phone" name="Lead Phone" placeholder="Phone Number" required class="form-control calc-input">
+                                    </div>
+                                    <button type="submit" class="btn btn-prominent btn-block">Lock Estimate & Book</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about" class="why-us-section">
+        <div class="container why-us-grid">
+            <div class="why-us-info">
+                <span class="section-subtitle">Local Plumbing Authority</span>
+                <h2>Reliable Master Plumbers serving East Harlem & NYC</h2>
+                <p>At Zefi Mechanical Inc., we focus on delivering fully code-compliant plumbing overhauls, high-quality backflow protection checks, and sewer lines cleanouts. We make sure all local NYC regulations are followed perfectly.</p>
+                
+                <div class="trust-pill-list">
+                    <div class="trust-pill-new">
+                        <h4><i class="fa-solid fa-user-shield"></i> NYC License #1946</h4>
+                        <p>Background-checked, fully insured Master Plumbers ensuring professional installations.</p>
+                    </div>
+                    <div class="trust-pill-new">
+                        <h4><i class="fa-solid fa-thumbs-up"></i> Top NYC Satisfaction</h4>
+                        <p>Direct communication, transparent building code updates, and clean work sites.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="why-us-graphics">
+                <div class="stat-container">
+                    <div class="stat-item">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-lbl">DEP Compliance Passed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">24/7</span>
+                        <span class="stat-lbl">Emergency Response</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workmanship Section -->
+    <section class="media-cta-section">
+        <div class="container media-grid">
+            <div class="media-image-box">
+                <img src="assets/tech_repair.png" alt="Zefi Mechanical Master Plumber under sink" class="realistic-img">
+            </div>
+            <div class="media-content-box">
+                <span class="section-subtitle">Expert Craftsmanship</span>
+                <h2>Done Right, Safely, and to Building Code</h2>
+                <p>Do not compromise when dealing with NYC building department inspections or master plumbing risers. Zefi Mechanical brings professional-grade pipeline diagnostic gear, fully stocked service vehicles, and licensed inspectors. We respect your structure and provide written guarantees on all systems.</p>
+                <div class="bullet-list-bold">
+                    <div class="b-item"><i class="fa-solid fa-shield-halved"></i> 1-Year Structural Protection Guarantee</div>
+                    <div class="b-item"><i class="fa-solid fa-user-check"></i> Fully Background-Checked Master Plumbers</div>
+                    <div class="b-item"><i class="fa-solid fa-calendar-check"></i> Priority Commercial Dispatch Available</div>
+                </div>
+                <a href="#booking-form-anchor" class="btn btn-primary btn-lg">Book Master Plumber</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-title-wrapper text-center">
+                <span class="section-subtitle">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-desc">Find quick answers to common questions about plumbing codes, mechanical systems, and backflow testing.</p>
+            </div>
+
+            <div class="faq-accordion">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">What areas of NYC do you serve? <i class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>We provide full-service mechanical and plumbing repairs throughout Manhattan, East Harlem, Queens, Brooklyn, and surrounding New York City boroughs.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">Are you a licensed NYC Master Plumber? <i class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Yes. Zefi Mechanical Inc. operates under active NYC Master Plumber License #1946, ensuring fully compliant filings and inspections with the DOB and DEP.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">Do you submit annual backflow filings to the DEP? <i class="fa-solid fa-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Yes, we are certified to conduct annual backflow prevention test inspections, submit reports, and file the correct certifications directly with the NYC DEP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Zefi Mechanical Inc.</h3>
+                <p style="margin-bottom: 20px;">Your trusted licensed NYC Master Plumber and Mechanical Contractor serving East Harlem and Manhattan.</p>
+            </div>
+            <div>
+                <h4>Contact Details</h4>
+                <p><i class="fa-solid fa-location-dot"></i> 420 East 111th Street, New York, NY 10029</p>
+                <p><i class="fa-solid fa-phone"></i> Main Line: (212) 860-0451</p>
+                <p><i class="fa-solid fa-envelope"></i> Email: dispatch@zefimechanical.com</p>
+            </div>
+            <div>
+                <h4>Our Services</h4>
+                <p>Commercial Mechanical Piping</p>
+                <p>Backflow Prevention DEP Testing</p>
+                <p>Master Plumbing Riser Repairs</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Zefi Mechanical Inc. All rights reserved. New York City Master Plumber.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Script -->
+    <script src="index.js"></script>
+</body>
+</html>
