@@ -179,10 +179,30 @@ a {
     margin-right: 30px;
 }
 
-.header-logo-img {
-    height: 55px;
-    width: auto;
+.logo-text-link {
     display: block;
+    text-decoration: none;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text-primary {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    line-height: 1;
+}
+
+.logo-text-secondary {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    letter-spacing: 0.15em;
+    margin-top: 2px;
 }
 
 .mobile-nav-toggle {
